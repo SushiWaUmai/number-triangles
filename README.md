@@ -1,2 +1,2 @@
 # number-triangles
-number triangles like (n k) and stirling numbers
+number triangles like pascal triangle and stirling numbers
