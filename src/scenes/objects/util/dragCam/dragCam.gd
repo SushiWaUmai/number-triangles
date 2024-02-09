@@ -1,11 +1,9 @@
 extends Camera2D
 
-
 func zoom(delta : float):
 	set_zoom(zoom - zoom * delta * 0.1)
-	var viewport: Viewport = get_viewport()
 
-func _unhandled_input(event):
+func _input(event):
 	if event is InputEventMouseButton:
 		match event.button_index:
 			BUTTON_WHEEL_DOWN:

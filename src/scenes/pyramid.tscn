@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scenes/objects/util/dragCam/dragCam.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/objects/util/numberPyramid/numberPyramid.tscn" type="PackedScene" id=2]
+[ext_resource path="res://basicTheme.tres" type="Theme" id=3]
 
 [node name="origin" type="Control"]
 
@@ -15,3 +16,4 @@ margin_top = 46.0
 margin_right = 88.0
 margin_bottom = 86.0
 mouse_filter = 2
+theme = ExtResource( 3 )
